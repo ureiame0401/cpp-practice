@@ -1,0 +1,21 @@
+# Compiled binaries
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Code::Blocks
+*.depend
+*.layout
+
+# VS Code local settings（看你要不要留）
+.vscode/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Contest problem screenshots
+**/screenshots/
