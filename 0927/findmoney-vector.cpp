@@ -2,9 +2,9 @@
 #include <vector>
 using namespace std;
 int main(){
-    
-    int a, b, msum=0;
-    cin >> a >> b;
+    int a,b;
+    while (cin >> a >> b){
+    int msum=0;
     while (a != 0 && b != 0)
     {
         msum += a * b;
@@ -18,5 +18,5 @@ int main(){
             w[i]+=w[i-c];
         }
     }
-    cout << w[msum];
+    cout << w[msum];}
 }
