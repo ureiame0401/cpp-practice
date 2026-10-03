@@ -25,7 +25,7 @@
 |---|---|---|---|---|
 | ZeroJudge [a006 一元二次方程式](https://zerojudge.tw/ShowProblem?problemid=a006), versions from 09-10 to 09-18 | [zj_a006.cpp](2026/0910/zj_a006.cpp)<br>[a006.cpp](2026/0917/a006.cpp)<br>[empty draft](2026/0918%28含校內競賽/a006.cpp) | C++ | conditionals, quadratic formula, sqrt | AC |
 | School exercise Q1: 分割數字 | [screenshot](2026/0918%28含校內競賽/screenshots/螢幕擷取畫面%202026-09-18%20122036.png)<br>[q001.cpp](2026/0918%28含校內競賽/q001.cpp) | C++ | binary representation, bit positions | Empty draft |
-| School exercise Q2: 開關燈／完全平方數 | [screenshot](2026/0918%28含校內競賽/screenshots/螢幕擷取畫面%202026-09-18%20122138.png)<br>[q002.cpp](2026/0918%28含校內競賽/q002.cpp) | C++ | sqrt, floating point, sentinel loop | Partial result shown; not verified |
+| School exercise Q2: 開關燈／完全平方數 | [screenshot](2026/0918%28含校內競賽/screenshots/螢幕擷取畫面%202026-09-18%20122138.png)<br>[q002.cpp](2026/0918%28含校內競賽/q002.cpp) | C++ | sqrt, floating point, sentinel loop | Partial result shown |
 | School exercise Q3: 字串排列比較 | [screenshot](2026/0918%28含校內競賽/screenshots/螢幕擷取畫面%202026-09-18%20122307.png)<br>[q003.cpp](2026/0918%28含校內競賽/q003.cpp) | C++ | string, character frequency | Empty draft |
 | School exercise Q5: 3 的倍數 | [screenshot](2026/0918%28含校內競賽/screenshots/螢幕擷取畫面%202026-09-18%20122324.png)<br>[q005.cpp](2026/0918%28含校內競賽/q005.cpp) | C++ | string, divisibility, ASCII | Debug; unsuccessful result shown |
 | Unidentified competition draft — Unknown / Practice | [ss1.cpp](2026/0918%28含校內競賽/ss1.cpp) | C++ | — | Empty draft |
@@ -36,8 +36,8 @@
 |---|---|---|---|---|
 | ZeroJudge [a024 最大公因數](https://zerojudge.tw/ShowProblem?problemid=a024), original and revision | [09-18 version](2026/0918%28含校內競賽/a024.cpp)<br>[09-19 revision](2026/0919/a024.cpp) | C++ | Euclidean algorithm, modulo | AC |
 | ZeroJudge [a244 新手訓練：for + if](https://zerojudge.tw/ShowProblem?problemid=a244) | [a244.cpp](2026/0919/a244.cpp) | C++ | loops, switch, arithmetic | AC |
-| Decreasing-product calculation — Unknown / Practice | [i112.cpp](2026/0919/i112.cpp) | C++ | while loop, multiplication, long long | Not verified |
-| Stock-price simulation, multiple attempts — Unknown / Practice | [i113.cpp](2026/0919/i113.cpp)<br>[i113-1.cpp](2026/0919/i113-1.cpp)<br>[i113-good-solve.cpp](2026/0919/i113-good-solve.cpp) | C++ | sliding window, state tracking, simulation | Debug / Not verified |
+| ZeroJudge Course / Contest i112 特殊階乘(20分) | [i112.cpp](2026/0919/i112.cpp) | C++ | while loop, multiplication, long long | AC |
+| ZeroJudge Course / Contest i113 股票(20分), multiple attempts | [i113.cpp](2026/0919/i113.cpp)<br>[i113-1.cpp](2026/0919/i113-1.cpp)<br>[i113-good-solve.cpp](2026/0919/i113-good-solve.cpp) | C++ | sliding window, state tracking, simulation | AC |
 
 ### 2026-09-24
 
@@ -58,14 +58,14 @@
 
 | Activity | Files | Language | Concepts | Status |
 |---|---|---|---|---|
-| School exercise Q4: 找錢方法數, attempts from 09-18 to 09-27 | [problem screenshot](2026/0918%28含校內競賽/screenshots/螢幕擷取畫面%202026-09-18%20122313.png)<br>[empty q004.cpp](2026/0918%28含校內競賽/q004.cpp)<br>[home draft](2026/0924-home/q4.cpp)<br>[array attempt](2026/0927/findmoney.cpp)<br>[vector attempt](2026/0927/findmoney-vector.cpp) | C++ | coin change, dynamic programming, array, vector, EOF | Debug / Not verified |
+| School exercise Q4: 找錢方法數, attempts from 09-18 to 09-27 | [problem screenshot](2026/0918%28含校內競賽/screenshots/螢幕擷取畫面%202026-09-18%20122313.png)<br>[empty q004.cpp](2026/0918%28含校內競賽/q004.cpp)<br>[home draft](2026/0924-home/q4.cpp)<br>[array attempt](2026/0927/findmoney.cpp)<br>[vector attempt](2026/0927/findmoney-vector.cpp) | C++ | coin change, dynamic programming, array, vector, EOF | Debug |
 
 ### 2026-10-01
 
 | Activity | Files | Language | Concepts | Status |
 |---|---|---|---|---|
 | ZeroJudge [a013 羅馬數字](https://zerojudge.tw/ShowProblem?problemid=a013), drafts and notes from 09-24 to 10-01 | [initial draft](2026/0924/a013.cpp)<br>[rome-num.cpp](2026/0927/rome-num.cpp)<br>[a013.cpp](2026/1001/a013.cpp)<br>[思路筆記](2026/1001/a013思路.txt) | C++ / text | string, functions, Roman numeral conversion | Incomplete |
-| ZeroJudge [a034 二進位制轉換](https://zerojudge.tw/ShowProblem?problemid=a034) | [a034.cpp](2026/1001/a034.cpp) | C++ | arrays, modulo, base conversion, EOF | — |
+| ZeroJudge [a034 二進位制轉換](https://zerojudge.tw/ShowProblem?problemid=a034) | [a034.cpp](2026/1001/a034.cpp) | C++ | arrays, modulo, base conversion, EOF | AC |
 
 ### 2026-10-01（PM）
 
@@ -77,20 +77,20 @@
 
 | Activity | Files | Language | Concepts | Status |
 |---|---|---|---|---|
-| McCarthy 91 function practice — Unknown / Practice | [f91.cpp](2026/1002/f91.cpp) | C++ | recursion, nested recursion, sentinel input | Not verified |
+| McCarthy 91 function practice — Unknown / Practice | [f91.cpp](2026/1002/f91.cpp) | C++ | recursion, nested recursion, sentinel input | — |
 | Three-color movement note — Unknown / Practice | [three-color_note](2026/1002/three-color_note) | text | buffer movement, planning | Note / Incomplete |
 
 ### 2026-10-02（Club）
 
 | Activity | Files | Language | Concepts | Status |
 |---|---|---|---|---|
-| ZeroJudge / UVa [c067 — 00591 Box of Bricks](https://zerojudge.tw/ShowProblem?problemid=c067) | [c067.cpp](2026/1002-club/c067.cpp) | C++ | vector, average, greedy counting | — |
-| ZeroJudge [e339 前綴和](https://zerojudge.tw/ShowProblem?problemid=e339) and [e340 差分](https://zerojudge.tw/ShowProblem?problemid=e340) | [e339.cpp](2026/1002-club/e339.cpp)<br>[e340.cpp](2026/1002-club/e340.cpp) | C++ | arrays, prefix sum, difference array | — |
+| ZeroJudge / UVa [c067 — 00591 Box of Bricks](https://zerojudge.tw/ShowProblem?problemid=c067) | [c067.cpp](2026/1002-club/c067.cpp) | C++ | vector, average, greedy counting | AC |
+| ZeroJudge [e339 前綴和](https://zerojudge.tw/ShowProblem?problemid=e339) and [e340 差分](https://zerojudge.tw/ShowProblem?problemid=e340) | [e339.cpp](2026/1002-club/e339.cpp)<br>[e340.cpp](2026/1002-club/e340.cpp) | C++ | arrays, prefix sum, difference array | AC |
 | Empty club note — Unknown / Practice | [note](2026/1002-club/note) | text | — | Empty note |
 
 ### 2026-10-03
 
 | Activity | Files | Language | Concepts | Status |
 |---|---|---|---|---|
-| ZeroJudge [d573 CRC騎士團](https://zerojudge.tw/ShowProblem?problemid=d573), cross-language implementations | [d573.cpp](2026/1003/d573.cpp)<br>[d573.py](2026/1003/d573.py) | C++ / Python | array, dictionary, direct lookup, EOF | — |
-| ZeroJudge [d587 參貳壹真好吃](https://zerojudge.tw/ShowProblem?problemid=d587) | [d587.cpp](2026/1003/d587.cpp) | C++ | vector, bubble sort | Needs optimization |
+| ZeroJudge [d573 CRC騎士團](https://zerojudge.tw/ShowProblem?problemid=d573), cross-language implementations | [d573.cpp](2026/1003/d573.cpp)<br>[d573.py](2026/1003/d573.py) | C++ / Python | array, dictionary, direct lookup, EOF | AC |
+| ZeroJudge [d587 參貳壹真好吃](https://zerojudge.tw/ShowProblem?problemid=d587) | [d587.cpp](2026/1003/d587.cpp) | C++ | vector, bubble sort | AC |

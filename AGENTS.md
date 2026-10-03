@@ -40,6 +40,27 @@
 12. 「—」不代表 AC。
 13. 有實際意義時才使用 Practice、Debug、Incomplete、Empty draft、Needs optimization、AC 等狀態。
 
+## ZeroJudge 題目辨識與公開連結
+
+ZeroJudge problem ID 與 AC 狀態，不代表該題一定有可公開存取的 ShowProblem 頁面。
+
+部分題目可能只存在於 ZeroJudge 的 Course / Contest 中，或只有課程／競賽參與者能查看題目內容。
+
+對這類題目：
+
+1. 如果能由使用者提供的 `ShowVClass.api` 資料、其他可靠的 Course / Contest 資料，或使用者明確提供的資訊確認：
+   - problem ID
+   - 題目名稱
+   - AC 狀態
+
+   則這些資訊可以正常記錄到 `LEARNING_LOG.md`。
+2. 如果確認該題屬於 ZeroJudge Course / Contest，可以在 Activity 中標示：`ZeroJudge Course / Contest`。
+3. Course / Contest 題目仍然可以標記為 AC，只要已有可靠的 AC 證據。
+4. 不要因為題目無法公開存取，就將已確認的題目來源改成 `Unknown / Practice`。
+5. 不要假設所有 ZeroJudge problem ID 都能透過 `https://zerojudge.tw/ShowProblem?problemid=...` 公開查看。
+6. 只有在能可靠確認公開 ShowProblem 頁面存在且可作為公開題目連結時，才在 `LEARNING_LOG.md` 建立該連結。
+7. 如果題目只確認存在於 Course / Contest，保留 problem ID 與題目名稱即可，不要建立可能無法公開存取的 ShowProblem 連結。
+
 # ZeroJudge status sync
 
 使用者有時會直接提供從登入後的 ZeroJudge API 複製出的 JSON，包括：
@@ -48,6 +69,39 @@
 - `ShowVClass.api`
 
 這些 JSON 是使用者手動提供的 ZeroJudge 狀態快照，用來同步 `LEARNING_LOG.md` 中已確認的 AC 狀態。
+
+使用者提供的 ZeroJudge 狀態資料不一定是完整 API response。為了避免提供不必要的個人資料，使用者可能只提供：
+
+- 完整的 `UserStatistic.api` JSON
+- 完整的 `ShowVClass.api` JSON
+- 從 API JSON 擷取出的部分資料
+- problem ID + AC status 的簡化清單
+
+例如：
+
+```text
+a002 AC
+a003 AC
+d573 AC
+```
+
+以上格式都可以作為手動 ZeroJudge status sync 的輸入。
+
+同步時只需要使用與學習紀錄有關的必要資訊，例如：
+
+- problem ID
+- status
+- acStatus
+- 必要時的題目名稱
+
+忽略其他不相關欄位。
+
+尤其不要使用、保存或寫入 repository 中其他學生的：
+
+- 姓名
+- 帳號
+- 使用者 ID
+- 其他個人資料
 
 處理 ZeroJudge status sync 時：
 
